@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title>index html</title>
+	</head>
+	<body>
+		hello and welcome to git project!
+	</body>
+</html>
