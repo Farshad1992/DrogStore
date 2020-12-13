@@ -1,0 +1,8 @@
+<html>
+<head>
+    <title>this is index html</title>
+</head>
+<body>
+    hello and welcome to learn js!
+</body>
+</html>
