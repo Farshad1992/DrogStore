@@ -3,6 +3,10 @@
 		<title>index html</title>
 	</head>
 	<body>
-		hello and welcome to git project!
+		var student1 = {fname : 'farshad' lname : 'Ansari', age : 22}
+		var studnet2 = {fname : 'Elena' lname : 'Lara' , age}
+		
+		var students = [student1, students]
+		alert(student1)
 	</body>
 </html>
