@@ -3,12 +3,20 @@
 	<title>this is seventh html file</title>
 </head>
 	<script>
-		function search(){
-			document.getElementById("id1").innerHTML = "salam";
+		function change(){
+			//document.getElementById("id1").innerHTML = "salam";
+			var paragraph = document.getElementById('id1').getElementsByTagName('p');
+			for(var i=0; i<paragraph.length; i++){
+				paragraph[i].innerHTML = i;
+			}
 		}
 	</script>
 <body>
-	<input type="button" value="click me" onclick="search()"/>
-	<div id="id1"></div>
+	<input type="button" value="click me" onclick="change()"/>
+	<div id="id1">
+	<p>p1</p>
+	<p>p2</p>
+	<p>p3</p>
+	</div>
 </body>
 </html>
